@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Html Form</h2>
+
+    <form action="" method="get">
+        <label for="username">Username</label>
+        <input type="text" name="username" value="Dhaval" placeholder="Enter your username" id="username">
+        <br/><br/>
+
+        <label for="email">Email *</label>
+        <input type="email" name="email" placeholder="Enter your email" id="email">
+        <br /> <br />
+
+        <label for="password">Password *</label>
+        <input type="password" name="password" placeholder="Enter your password" id="password">
+        <br /> <br />
+
+        <label for="phone">Phone *</label>
+        <input type="number" name="phone" placeholder="Enter your phone" id="phone">
+        <br /> <br />
+
+        <label for="file">file</label>
+        <input type="file" name="file" id="file" multiple>
+        <br /> <br />
+
+        <label for="color">colour</label>
+        <input type="color" name="color" id="color">
+        <br /> <br />
+
+        <label for="gander">Gander</label>
+        <input type="radio" name="gender" value="male" > Male
+        <input type="radio" name="gender" value="female" > Female
+        <br /><br />
+
+        <label for="subject">Subject</label>
+        <input type="checkbox" name="subject" id="subject1" value="HTML"> HTML
+        <input type="checkbox" name="subject" id="subject2" value="CSS"> CSS
+        <input type="checkbox" name="subject" id="subject2" value="JavaScript"> JavaScript
+        <br /><br />
+
+        <label for="date">date</label>
+        <input type="date" name="date" id="date">
+        <br /> <br />
+
+        <label for="time">time</label>
+        <input type="time" name="time" id="time">
+        <br /> <br />
+
+        <label for="search">search</label>
+        <input type="search" name="search" id="search" placeholder="search by name">
+        <br /> <br />
+
+        <label for="url">Image url</label>
+        <input type="url" name="url" id="url" placeholder="Enter image url">
+        <br /> <br />
+
+        <label for="tel">Tel</label>        
+        <input type="tel" name="tel" id="tel" pattern="[0-4]{4}-[4-9]{4}-[5-9]{4}" placeholder="0123-4545-5685">
+        <br /> <br /> 
+
+        <label for="lang">Programming lang</label>
+        <select name="lang" id="lang" >
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="j++">j++</option>
+            <option value="VB.Net">VB.Net</option>
+        </select>
+        <br /> <br /> 
+
+        <label for="feedback">feedback</label>
+        <textarea name="feedback" id="feedback" rows="4" cols="25" placeholder="Enter your feedback"></textarea>
+        <br /> <br />
+
+        <button type="submit" >Submit</button>
+        <button type="reset" >reset</button>
+        <button type="button" >Button</button>
+
+
+        <input type="button" value="button">
+        <input type="reset" value="clear">
+        <input type="submit" value="Add Data">
+    </form>
+
+</body>
+</html>
